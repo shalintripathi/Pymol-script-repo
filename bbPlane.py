@@ -116,7 +116,7 @@ NOTES
     # finish the CGO
     obj.append(END)
 
-    # update the UI
+    # update the user interface (UI)
     cmd.load_cgo(obj, name, state, zoom=0)
     cmd.set("cgo_transparency", transp, name)
 
